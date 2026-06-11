@@ -75,7 +75,7 @@ ATOM _RegisterClassExW(PWNDCLASSEXW pClass)
 {
     static BOOL bHooked = {};
 
-    if (!bHooked && CompareStringOrdinal(L"Bedrock", -1, pClass->lpszClassName, -1, FALSE) == CSTR_EQUAL)
+    if (!bHooked)
     {
         IDXGIFactory2 *pFactory = {};
         CreateDXGIFactory(&IID_IDXGIFactory2, (PVOID)&pFactory);
