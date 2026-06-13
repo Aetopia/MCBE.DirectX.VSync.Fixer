@@ -10,8 +10,8 @@ Fixes issues with DirectX & V-Sync in Minecraft: Bedrock Edition.
 
     |Component|Library|
     |-|-|
-    |DirectX 12 Disabler|d3d12.dll|
-    |V-Sync Disabler|vcruntime140_1.dll|
+    |DirectX 12 Disabler|[`d3d12.dll`](https://github.com/Aetopia/MCBE.DirectX.VSync.Fixer/releases/latest/download/d3d12.dll)|
+    |V-Sync Disabler|[`vcruntime140_1.dll`](https://github.com/Aetopia/MCBE.DirectX.VSync.Fixer/releases/latest/download/vcruntime140_1.dll)|
 
 - Run the following command in PowerShell to find where the game is located:
 
